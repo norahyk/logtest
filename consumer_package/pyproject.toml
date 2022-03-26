@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "consumer_package"
+version = "0.1.0"
+description = ""
+authors = ["norahyk <norahyk@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+logtest = {path = "../provider_package"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

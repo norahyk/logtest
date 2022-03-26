@@ -1,0 +1,4 @@
+2022-03-26 23:05:03.824 | ERROR    | logtest.loguru.submodule.sub_loguru:sublog:5 - logging submodule error
+2022-03-26 23:05:03.825 | WARNING  | logtest.loguru.submodule.sub_loguru:sublog:6 - logging submodule warning
+2022-03-26 23:05:03.825 | INFO     | logtest.loguru.submodule.sub_loguru:sublog:7 - logging submodule info
+2022-03-26 23:05:03.825 | DEBUG    | logtest.loguru.submodule.sub_loguru:sublog:8 - logging submodule debug
